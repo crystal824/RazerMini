@@ -1,0 +1,10 @@
+bin/
+obj/
+out/
+dist/
+dist-win/
+*.user
+*.suo
+.vs/
+HANDOFF.md
+*.log

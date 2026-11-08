@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <!-- 用 GlobalUsings.cs 显式声明，保持与 NAS 上 csc 直编完全一致 -->
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>RazerMini.Core</RootNamespace>
+    <AssemblyName>RazerMini.Core</AssemblyName>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <!-- 版本特性写在 Properties/AssemblyInfo.cs，两条构建路径共用 -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+</Project>
